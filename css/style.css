@@ -74,4 +74,8 @@ nav ul li a:hover::after {
     color: #B026FF;
 }
 
+.about-container {
+    padding: 10px 5%;
+}
+
 
