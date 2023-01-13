@@ -253,3 +253,39 @@ nav ul li a:hover::after {
 .contact-container {
     padding: 10px 5%;
 }
+
+.contact-left {
+    flex-basis: 35%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.contact-left p i {
+    color: #39ff14;
+    margin-right: 25px;
+    font-size: 1.5em;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 1.8em;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: #a51df4;
+    transform: translateY(-5px);
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
