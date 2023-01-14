@@ -317,3 +317,53 @@ form .btn-two {
     margin-top: 20px;
     cursor: pointer;
 }
+
+/*********************** SMALL SCREENS ********************/
+
+nav .fa-solid {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #header {
+        background-image: url("../img/phone-stock-background-resized.jpg");
+    }
+
+    .header-text {
+        margin-top: 100%;
+        font-size: 1em;
+    }
+
+    .header-text h1 {
+        font-size: 1.9em;
+    }
+
+    nav .fa-solid {
+        display: block;
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        background: #a51df4;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .fa-solid {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+}
+
