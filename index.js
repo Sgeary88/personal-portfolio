@@ -20,3 +20,14 @@ function openMenu() {
 function closeMenu() {
     sideMenu.style.right = '-200px';
 }
+
+//---------- Contact Submission Script--------------//
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw49mYJ9bZc6DqPk_Un7p1n9gFPwWplceZVMAoFgSKiNtQjzhqll7ABID4xDVR2AWAI-Q/exec';
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
