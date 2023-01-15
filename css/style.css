@@ -18,8 +18,8 @@ body {
 /******************** HEADER STYLES *******************/
 #header {
     width: 100%;
-    height: 100vh;
-    background-image: url("../img/background-stock-two.jpg");
+    height: 60vh;
+    background-image: url("../img/background-header-resized.png");
     background-size: cover;
     background-position: center;
 }
@@ -68,7 +68,7 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-    margin-top: 15%;
+    margin-top: 8%;
     font-size: 1.5em;
 }
 
@@ -340,11 +340,11 @@ nav .fa-solid {
 
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url("../img/phone-stock-background-resized.jpg");
+        background-image: url("../img/background-header-resized.png");
     }
 
     .header-text {
-        margin-top: 100%;
+        margin-top: 35%;
         font-size: 1em;
     }
 
