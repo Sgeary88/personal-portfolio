@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    overflow-y: auto;
+  }
+
 body {
     background-color: #000;
     color: #e2e1e1;
+    scroll-behavior: smooth;
+    overflow-y: auto;
 }
 /******************** HEADER STYLES *******************/
 #header {
@@ -260,6 +267,7 @@ nav ul li a:hover::after {
 
 .contact-left p {
     margin-top: 30px;
+    font-size: 1.2em;
 }
 
 .contact-left p i {
@@ -352,6 +360,7 @@ nav .fa-solid {
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
+        transition: right 0.5s;
     }
 
     nav ul li {
@@ -364,6 +373,31 @@ nav .fa-solid {
         top: 25px;
         left: 25px;
         cursor: pointer;
+    }
+
+    .sub-header {
+        font-size: 2.3em;
+    }
+
+    .about-col-one, .about-col-two {
+        flex-basis: 100%;
+    }
+
+    .about-col-one {
+        margin-bottom: 30px;
+    }
+
+    .about-col-two {
+        font-size: 1em;
+    }
+
+    .tab-links {
+        font-size: 1.2em;
+        margin-right: 40px;
+    }
+
+    .contact-left, .contact-right {
+        flex-basis: 100%;
     }
 }
 
