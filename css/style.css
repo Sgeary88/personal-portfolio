@@ -294,11 +294,11 @@ nav ul li a:hover::after {
     transform: translateY(-5px);
 }
 
-.contact-right {
+/* .contact-right {
     flex-basis: 60%;
-}
+} */
 
-.contact-right form {
+/* .contact-right form {
     width: 100%;
 }
 
@@ -324,7 +324,7 @@ form .btn-two {
     font-size: 1.2em;
     margin-top: 20px;
     cursor: pointer;
-}
+} */
 
 /*********************** SMALL SCREENS ********************/
 
